@@ -1,0 +1,144 @@
+.Body {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgb(238,174,202) 0%, rgb(148,187,233) 100%);
+    position: relative;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.B1 {
+    max-width: 450px;
+    width: 100%;
+    height: 500px;
+    border-radius: 35px;
+    
+    background-color: rgba(240, 240, 240, 0.4);
+    
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.Inbox1 {
+    margin: auto;
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* height: 150px; */
+    /* background-color: rgb(161, 95, 95); */
+}
+
+
+
+.boxI {
+    
+    width: 100%;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.664);
+    /* box-shadow: 0px 0px 10px  */
+    box-shadow: 0 0 10px rgb(165, 165, 165);;
+    position: relative;
+    top: 0px;
+    /* border-top-right-radius: 25px; */
+    /* border-top-left-radius: 25px; */
+    border-radius: 20px;
+}
+
+
+.Display {
+    display:block;
+    text-align: right;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    font-size: 25px;
+    top: 15px;
+    padding: 15px 0;
+    background-color: bisque;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
+
+.Inbox2 {
+    width: 90%;
+    margin: auto;
+    
+}
+
+.Inbox2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.Inbox2 ul li button{
+    width: 75px;
+    height: 75px;
+    border: none;
+    font-size: 22px;
+    border-radius: 50%;
+    outline: none;
+    margin: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgb(165, 165, 165);
+    
+}
+
+.Inbox2 ul li button:hover{
+    background-color: rgb(219, 219, 219);
+}
+.Inbox2 ul li button:active{
+    background-color: rgb(204, 204, 204);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
